@@ -1,0 +1,15 @@
+.CountryItem {
+  width: 48%;
+  background-color: var(--color-dark--2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-left: 5px solid var(--color-brand--1);
+  margin-bottom: 10px;
+}
+.CountryItem span {
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+  font-size: 16px;
+  text-align: center;
+}

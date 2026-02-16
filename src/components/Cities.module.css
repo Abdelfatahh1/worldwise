@@ -1,0 +1,32 @@
+.cities {
+  background-color: var(--color-dark--1);
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.cities .btns {
+  margin: 50px 0;
+  background-color: var(--color-dark--2);
+
+  border-radius: 10px;
+  color: white;
+}
+.cities .btns button {
+  background-color: transparent;
+}
+.cities .btns button a {
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+}
+.cities .btns a:global(.active) {
+  background-color: var(--color-dark--1);
+  color: white;
+}
+.cities article {
+  width: 100%;
+}

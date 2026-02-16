@@ -1,0 +1,16 @@
+.form {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color-dark--2);
+  padding: 30px;
+  border-radius: 10px;
+}
+.form input,
+textarea {
+  margin-bottom: 20px;
+}
+.form .formBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

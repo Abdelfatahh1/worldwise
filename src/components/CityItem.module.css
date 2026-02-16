@@ -1,0 +1,28 @@
+.cityItem {
+  background-color: var(--color-dark--2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-left: 5px solid var(--color-brand--2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cityItem span {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.cityItem button {
+  background-color: var(--color-dark--1);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.cityItem a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.selected {
+  border: 3px solid var(--color-brand--2);
+}

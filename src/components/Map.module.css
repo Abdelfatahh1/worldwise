@@ -1,0 +1,18 @@
+.map {
+  width: 55%;
+  height: 100vh;
+  position: relative;
+}
+.map button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1000;
+}
+.mapContainer {
+  height: 100%;
+  width: 100%;
+}

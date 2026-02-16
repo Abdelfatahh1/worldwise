@@ -1,0 +1,26 @@
+.product {
+  background-color: var(--color-dark--1);
+  padding: 40px;
+  height: calc(100vh - 40px);
+}
+.product div {
+  width: 48%;
+}
+.product section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+.product section .productImage {
+  width: 48%;
+  height: 70%;
+}
+.product section h1 {
+  font-size: 40px;
+}
+.product section p {
+  margin: 20px 0;
+  font-size: 16px;
+}

@@ -1,0 +1,24 @@
+.appLayOut {
+  height: calc(100vh - 40px);
+
+  display: flex;
+  position: relative;
+}
+.appLayOut header {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background-color: var(--color-dark--1);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  width: 300px;
+  border-radius: 10px;
+  z-index: 1111;
+}
+.appLayOut header button {
+  width: 70px;
+  padding: 10px;
+  font-size: 15px;
+}
